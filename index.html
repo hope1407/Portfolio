@@ -14,9 +14,9 @@
         </p>
         <nav>
             <ul>
-                <a a href="index.html#aboutmelink"=>About Me</a>
+                <a a href="index.html#aboutmelink">About Me</a>
                 <a href="index.html#worklink">Work</a>
-                <a href="">Contact Me</a>
+                <a href="index.html#contactlink">Contact Me</a>
                 <a href="">Resume</a>
             </ul>
         </nav>
@@ -24,8 +24,9 @@
     
     <div>
         <section class="buffer">
-            <div id="tagline">Full Stack Web Development</div>
+            <div id="tagline">Full Stack Web Developer</div>
         </section>
+
         <section class="amlocation" id="aboutmelink">
             <article>
                 <div id="amheader">About Me</div>
@@ -37,29 +38,51 @@
             </article>
         </section>
         
-        <section id="worklink">
+        <section class="worklocation" id="worklink">
             <article>
-                Work
+                <div id="workheader">Work</div>
             </article>
-            <article>
-                <div>Big Project</div>
-                <div>
-                    <div>Small Project 1</div>
-                    <div>Small Project 2</div>
-                    <div>Small Project 3</div>
-                    <div>Small Project 4</div>
+            <article class="projects">
+                <div id="bigproject">
+                    <div id="projName">
+                        Big Project
+                    </div>
+                </div>
+                <div class="smallprojects">
+                    <div class="sp" id="img1">
+                        <div class="sPname">
+                            Small project 1
+                        </div>
+                    </div>
+                    <div class="sp" id="img2">
+                        <div class="sPname">
+                            Small project 2
+                        </div>
+                    </div>
+                    <div class="sp" id="img3">
+                        <div class="sPname">
+                            Small project 3
+                        </div>
+                    </div>
+                    <div class="sp" id="img4">
+                        <div class="sPname">
+                            Small project 4
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
-        <section>
-            <p>Contact Me</p>
-                <a href="https://github.com/hope1407">Github</a>
-                <a href="#">Portfolio</a>
-                <a href="">Contact</a>
-        </section>
-    </div>
-    <footer>
-        <p>©2021 Hope Design</p>
+    </div>    
+    <footer class="contact" id="contactlink">
+        <p class="cmheader">
+            Contact Me
+        </p>
+        <div class="contactLinks">
+            <a href="https://github.com/hope1407">Github</a>
+            <a href="#">815.519.2093</a>
+            <a href="">johnhope354@gmail.com</a>
+            <a href="#">LinkedIn</a>
+        </div>
     </footer>
 </body>
 </html>

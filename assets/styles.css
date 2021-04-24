@@ -1,5 +1,6 @@
 body{
     background-color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -73,6 +74,13 @@ header p {
     margin: 100px;
 }
 
+.worklocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0px 0px 100px 196px;
+}
 #amheader{
     width: fit-content;
     font-size: 50px;
@@ -86,12 +94,237 @@ header p {
     position: relative;
 }
 
+#workheader{
+    width: fit-content;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 63, 63);
+    border-right: 5px solid rgb(59, 63, 63);
+    padding-right: 29px;
+    padding-bottom: 800px;
+    margin-right: 25px;
+    text-align: right;
+    position: relative;
+}
+
 #amparagraph{
     width: 744px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(59, 63, 63);
     padding-left: 96px;
+}
+
+.projects{
+    display: flex;
+    width: 744px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 100px;
+}
+
+#bigproject{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg);
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(129, 260, 255);
+}
+
+#bigproject:hover{
+    opacity: 1;
+}
+
+#projName{
+    width: 200px;
+    height: 75px;
+    background-color: rgb(129, 260, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 63, 63);
+    position: absolute;
+    left: 104px;
+    bottom: 435px;
+}
+
+#img1{
+    background-image: url(https://i.pinimg.com/originals/aa/f8/71/aaf87140f7751bd9a3f70b59f0b8f508.jpg);
+    background-position: center;
+    opacity: .5;
+}
+
+#img1:hover{
+    opacity: 1;
+}
+
+#img2{
+    background-image: url(https://www.lpl.com/content/dam/lpl-www/images/Article_Page/ARTICLE-calculator-image-680x500.jpg);
+    opacity: .5;
+}
+
+#img2:hover{
+    opacity: 1;
+}
+
+#img3{
+    background-color: #FF9E61;
+    opacity: .5;
+}
+
+#img3:hover{
+    opacity: 1;
+}
+
+#img4{
+    background-image: url(https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMjUzNDQ3OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYzNzkwMTcwMH0.WK0toJk6KrFMQDMJPKUzwCiJ8c45hlAQVennDTLlQ54/img.jpg?width=1200&coordinates=0%2C49%2C0%2C50&height=600);
+    background-position: center;
+    opacity: .5;
+}
+
+#img4:hover{
+    opacity: 1;
+}
+
+.sPname{
+    width: 100px;
+    height: 75px;
+    background-color: rgb(129, 260, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 63, 63);
+    position: absolute;
+}
+
+#location1 #location2{
+    top: 80px;
+}
+
+#location3 #location4{
+    top: 270px;
+}
+
+.smallprojects{
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 5px;
+}
+
+.sp{
+    width: 49%;
+    margin: 8px 2px;
+    height: 173px;
+    border: 5px solid rgb(129, 260, 255);
+}
+
+.contact{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.cmheader{
+    width: fit-content;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 63, 63);
+    border-right: 5px solid rgb(59, 63, 63);
+    padding-right: 29px;
+    margin-right: 25px;
+    text-align: right;
+    position: relative;
+}
+
+.contactLinks{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.contactLinks a{
+    color: rgb(59, 63, 63);
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgb(59, 63, 63);
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+@media only screen and (max-width: 1220px){
+    .amlocation{
+        flex-direction: column;
+    }
+
+    .worklocation{
+        flex-direction: column;
+        margin: 100px;
+    }
+
+    #amheader{
+        width: 100%;
+        border-right: 0px;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+        border-bottom: 5px solid;
+        margin: 0px;
+    }
+    #amparagraph{
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    #workheader{
+        width: 100%;
+        border-right: 0px;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+        border-bottom: 5px solid;
+        margin: 0px;
+    }
+    .projects{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        padding: 0;
+        align-items: center;
+    }
+    #projName{
+        left: 0px;
+        top: 390px;
+    }
+    .smallprojects{
+        width: 100%;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .cmheader{
+        width: 100%;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(59, 63, 63);
+        border-bottom: 5px solid rgb(59, 63, 63);
+        padding-right: 29px;
+        border-right: 0;
+        padding-bottom: 5px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .contactLinks{
+        justify-content: space-between;
+    }
 }
 
 @media only screen and (max-width: 975px){
@@ -116,21 +349,9 @@ header p {
     #tagline{
         top: 565px;
     }
-    .amlocation{
+    .contactLinks{
         flex-direction: column;
-    }
-    #amheader{
-        width: 100%;
-        border-right: 0px;
-        padding-right: 0;
-        padding-bottom: 0;
-        text-align: center;
-        border-bottom: 5px solid;
-        margin: 0px;
-    }
-    #amparagraph{
-        padding-top: 10px;
-        padding-left: 0px;
+        justify-content: center;
     }
 }
 
@@ -159,14 +380,34 @@ header p {
     }
     #tagline{
         width: 100%;
-    right: 0px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    top: 795px;
-    font-size: 25px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        top: 795px;
+        font-size: 25px;
     }
     .amlocation{
         margin: 10px;
     }
+
+    .worklocation{
+        margin: 10px;
+    }
+    #bigproject{
+        height: 300px;
+    }
+    #projName{
+        left: 0px;
+        top: 200px;
+    }
+    .sp{
+        width: 100%;
+    }
+    #location1 #location2 #location3 #location4{
+        top: 5px;
+    }
+    .contact{
+        margin: 10px;
+    }    
 }
