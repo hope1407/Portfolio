@@ -1,0 +1,172 @@
+body{
+    background-color: honeydew;
+}
+
+header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-bottom: 145px;
+    background-color: rgb(59, 63, 63);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 70px;
+    top: 0x;
+    text-align: right;
+    padding: 25px 25px 25px 25px;
+}
+
+nav ul a{
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 2px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(129, 260, 255);
+    text-decoration: none;
+}
+
+header p {
+    display: inline;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    padding: 10px 10px 10px 100px;
+    background-color: rgb(129, 260, 255);
+    color: rgb(59, 63, 63);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.buffer{
+    width: 100%;
+    height: 400px;
+    background:
+		linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
+		repeating-linear-gradient(45deg, rgba(34, 76, 152, 1) 0%, rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%),
+		repeating-linear-gradient(-45deg, rgba(34, 76, 152, 0.4) 0%, rgba(31, 48, 94, 0.5) 5%, transparent 5%, transparent 10%);
+	background-color: rgba(34, 76, 152, 0.25);
+}
+
+#tagline{
+    display: inline;
+    position: absolute;
+    top: 400px  ;
+    right: 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(129, 260, 255);
+    color: rgb(59, 63, 63);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.amlocation{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 100px;
+}
+
+#amheader{
+    width: fit-content;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 63, 63);
+    border-right: 5px solid rgb(59, 63, 63);
+    padding-right: 29px;
+    padding-bottom: 221px;
+    margin-right: 25px;
+    text-align: right;
+    position: relative;
+}
+
+#amparagraph{
+    width: 744px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 63, 63);
+    padding-left: 96px;
+}
+
+@media only screen and (max-width: 975px){
+    header{
+        padding-bottom: 300px;
+    }
+    header p{
+        margin: auto;
+        padding: 10px 10px 10px 100px;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        text-align: center;
+        top: 120px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    #tagline{
+        top: 565px;
+    }
+    .amlocation{
+        flex-direction: column;
+    }
+    #amheader{
+        width: 100%;
+        border-right: 0px;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+        border-bottom: 5px solid;
+        margin: 0px;
+    }
+    #amparagraph{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 875px){
+    #amparagraph{
+        font-size: 20px;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    header{
+        padding-bottom: 500px;
+    }
+
+    header p{
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        right: 0;
+    }
+    #tagline{
+        width: 100%;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 795px;
+    font-size: 25px;
+    }
+    .amlocation{
+        margin: 10px;
+    }
+}
