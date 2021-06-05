@@ -129,7 +129,7 @@ header p {
     width: 100%;
     height: 500px;
     margin-bottom: 10px;
-    background-image: url(https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg);
+    background-image: url(./images/bike2Work.jpg);
     opacity: .5;
     display: flex;
     justify-content: center;
@@ -153,7 +153,7 @@ header p {
 }
 
 #img1{
-    background-image: url(https://i.pinimg.com/originals/aa/f8/71/aaf87140f7751bd9a3f70b59f0b8f508.jpg);
+    background-image: url(./images/passwordGenerator.png);
     background-position: center;
     opacity: .5;
 }
@@ -163,7 +163,7 @@ header p {
 }
 
 #img2{
-    background-image: url(https://www.lpl.com/content/dam/lpl-www/images/Article_Page/ARTICLE-calculator-image-680x500.jpg);
+    background-image: url(./images/dayPlanner.png);
     opacity: .5;
 }
 
