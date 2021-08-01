@@ -1,5 +1,5 @@
 # Portfolio
-This website is a developing a showcase of my work as a full stack web developer.  You will find that the layout has a fully responsive design, with an attractive color scheme.  As of now, three of my projects are displayed.
+This website is a developing a showcase of my work as a full stack web developer.  You will find that the layout has a fully responsive design, an attractive color scheme, and displays five of my best projects.
 
 # Deployed Link
 https://hope1407.github.io/Portfolio/
